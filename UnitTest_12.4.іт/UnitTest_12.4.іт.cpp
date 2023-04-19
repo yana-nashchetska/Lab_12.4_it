@@ -19,7 +19,7 @@ namespace UnitTest124іт
 				num++;
 				Insert(L, num);
 			} 
-			insertAfter(L, 2, 2);
+			insertAfter(L, 2);
 			int expected = 2;
 			int actual = L->link->info;
 			Assert::AreEqual(actual, expected);
